@@ -1,5 +1,4 @@
-const express = require('express');
-const app = express()
+
 const Instagram = require('instagram-web-api')
 const { username, password } = {username:'photo_mania_5053', password:'pjay325476'}
  
@@ -23,4 +22,4 @@ const { username, password } = {username:'photo_mania_5053', password:'pjay32547
     console.log(`https://www.instagram.com/p/${media.code}/`)
    }
   })()
-app.listen(300,()=>{console.log('app started on port 300')})
+console.log('last line')
