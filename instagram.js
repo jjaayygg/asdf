@@ -15,8 +15,9 @@ const { username, password } = {username:'photo_mania_5053', password:'pjay32547
       'https://www.mozilla.org/media/img/firefox/template/page-image-master.1b6efe3d5631.jpg'
    
     await client.login()
-   
+   for(let x = 0;x<10;x++){
     // Upload Photo to feed or story, just configure 'post' to 'feed' or 'story'
     const { media } = await client.uploadPhoto({ photo: photo, caption: 'testing', post: 'feed' })
     console.log(`https://www.instagram.com/p/${media.code}/`)
+   }
   })()
