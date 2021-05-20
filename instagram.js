@@ -23,4 +23,4 @@ const { username, password } = {username:'photo_mania_5053', password:'pjay32547
     console.log(`https://www.instagram.com/p/${media.code}/`)
    }
   })()
-app.listen(300,()=>{console.log('app started on port 300)})
+app.listen(300,()=>{console.log('app started on port 300')})
